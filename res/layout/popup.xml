@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_light">
+
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_margin="1dp"
+     android:background="@android:color/darker_gray"
+     android:orientation="vertical" >
+
+     <TextView
+         android:layout_width="170dp"
+         android:layout_height="wrap_content"
+         android:text="please choose an option" />
+
+     <Button
+         android:id="@+id/o1"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="33dp"
+         android:layout_gravity="center_horizontal"
+         android:text="Reading" />
+     <Button
+         android:id="@+id/o2"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="33dp"
+         android:layout_gravity="center_horizontal"
+         android:text="Coding" />
+     <Button
+         android:id="@+id/o3"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="33dp"
+         android:layout_gravity="center_horizontal"
+         android:text="Walking" />
+     <Button
+         android:id="@+id/o4"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="33dp"
+         android:layout_gravity="center_horizontal"
+         android:text="Running" />
+     <Button
+         android:id="@+id/o5"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="33dp"
+         android:layout_gravity="center_horizontal"
+         android:text="Driving" />
+
+     >
+     <LinearLayout 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" 
+      android:layout_margin="20dp">
+      </LinearLayout>
+
+     <Button
+         android:id="@+id/dismiss"
+         android:layout_width="wrap_content"
+         android:layout_height="33dp"
+         android:layout_gravity="right"
+         android:textSize="18sp"
+         android:text="Dismiss" />
+
+ </LinearLayout>
+</LinearLayout>

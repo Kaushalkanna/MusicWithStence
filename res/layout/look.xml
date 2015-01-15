@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/b2"
+    android:layout_height="fill_parent"
+    android:columnCount="2" >
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="163dp"
+        android:layout_height="78dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="Reading" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="163dp"
+        android:layout_height="78dp"
+        android:layout_column="1"
+        
+        android:layout_row="1"
+        android:text="Coding" />
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="163dp"
+        android:layout_height="78dp"
+        android:layout_column="0"
+        
+        android:layout_row="2"
+        android:text="Walking" />
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="163dp"
+        android:layout_height="78dp"
+        android:layout_column="1"
+        
+        android:layout_row="3"
+        android:text="Running" />
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="163dp"
+        android:layout_height="78dp"
+        android:layout_column="0"
+        
+        android:layout_row="4"
+        android:text="Driving" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_row="0"
+        android:text="I am with you.!" />
+
+     <TextView
+        android:id="@+id/tv2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="1"
+        android:text="Think Hard.!" />
+     
+      <TextView
+        android:id="@+id/tv3"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_row="2"
+        android:text="Good for Health.!" />
+      
+      <TextView
+        android:id="@+id/tv4"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="3"
+        android:text="Stay FIT.!" />
+
+      <TextView
+          android:id="@+id/tv5"
+          android:layout_width="110dp"
+          android:layout_height="wrap_content"
+          android:layout_column="1"
+          android:layout_gravity="center_horizontal"
+          android:layout_row="4"
+          android:text="Drive Safe.!" />
+
+      <Button
+          android:id="@+id/map"
+          android:layout_width="111dp"
+          android:layout_column="0"
+          android:layout_gravity="right|bottom"
+          android:layout_row="4"
+          android:text="Map Songs" />
+
+</GridLayout>
